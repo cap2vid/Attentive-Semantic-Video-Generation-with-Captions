@@ -345,8 +345,9 @@ for i,(g,v) in enumerate(grads):
 train_op=optimizer.apply_gradients(grads)
 
 ## RUN TRAINING ## 
+dataset_file = 'dataset/mnist_single_gif.h5')
 
-with h5py.File('/home/ee13b1044/Sync-DRAW/dataset/mnist_single_gif.h5','r') as hf:
+with h5py.File(dataset_file,'r') as hf:
 	inputImages = np.float32(np.array(hf.get('mnist_gif_train')).reshape(-1,C,4096))
 	#inputImages_val = np.float32(np.array(hf.get('mnist_gif_val')).reshape(-1,C,4096))
 

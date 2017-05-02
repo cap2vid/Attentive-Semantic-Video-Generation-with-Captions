@@ -13,3 +13,4 @@
 | <img src="http://i.imgur.com/usaRTaD.gif" width="100%">|<img src="http://i.imgur.com/JiUM3HY.gif" width="100%">| 
 | ---------------------| ---------------------|
 | **Caption 1**: digit 4 is moving up and down **Caption 2**: digit 9 is moving left and right | **Caption 1**: digit 5 is moving left and right **Caption 2**: digit 9 is moving up and down |
+
